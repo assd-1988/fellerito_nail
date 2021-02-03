@@ -1,0 +1,17 @@
+body { height: 2000px;
+     background-color:rgb(174, 179, 179);
+    }
+
+.content {  margin: 0px; width: 449px; background-color: rgb(174, 179, 179)
+    ;font-family: 'Crimson Pro', serif; font-size: 20px; box-shadow: 0 0px 20px;
+    }
+.content-titel { width: 440px; 
+    font-size: 23px; margin: 2px; text-align: center; font-family: 'Crimson Pro', serif;
+}
+.content-text
+{ font-size: 18px; font-family: 'Crimson Pro', serif;
+ text-align: center; }
+.card { width: 449px; margin: 1px; box-shadow: 0 5px 20px; background-color: rgb(174, 179, 179) ;
+
+}
+
