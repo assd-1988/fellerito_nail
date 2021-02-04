@@ -2,16 +2,22 @@ body { height: 2000px;
      background-color:rgb(174, 179, 179);
     }
 
-.content {  margin: 0px; width: 449px; background-color: rgb(174, 179, 179)
-    ;font-family: 'Crimson Pro', serif; font-size: 20px; box-shadow: 0 0px 20px;
+.content {  margin: 0px; width: 449px ; height: 46px; background-color: rgb(174, 179, 179)
+    ;font-family: 'Crimson Pro', serif; font-size: 22px; box-shadow: 0 0px 20px;
     }
-.content-titel { width: 440px; 
+.content-titel { color: rgb(0, 0, 0); margin: 9px;
     font-size: 23px; margin: 2px; text-align: center; font-family: 'Crimson Pro', serif;
 }
 .content-text
-{ font-size: 18px; font-family: 'Crimson Pro', serif;
- text-align: center; }
-.card { width: 449px; margin: 1px; box-shadow: 0 5px 20px; background-color: rgb(174, 179, 179) ;
+{ font-size: 18px; font-family: 'Crimson Pro', serif; margin: 0 0 13px; 
+ text-align: center;line-height: 1;color: rgb(0,0,0); }
+.card { width: 449px; margin: 1px; box-shadow: 0 5px 20px; background-color: rgb(174, 179, 179) ;}
 
+.header-text {
+    font-size: 26px; color: rgb(0, 0, 0); line-height: 1; 
 }
+.content a {
+    color: inherit; text-decoration: none;
+}
+
 
