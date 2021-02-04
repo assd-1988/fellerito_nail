@@ -1,8 +1,8 @@
-body { height: 2000px; width: 448px;
+body { height: 2000px; width: 320px;
      background-color:rgb(174, 179, 179);
     }
 
-.content {  margin: 0px; width: 449px ; height: 46px; background-color: rgb(174, 179, 179)
+.content {  margin: 0px; width: 320px ; height: 46px; background-color: rgb(174, 179, 179)
     ;font-family: 'Crimson Pro', serif; font-size: 22px; box-shadow: 0 0px 20px;
     }
 .content-titel { color: rgb(0, 0, 0); margin: 9px;
@@ -12,7 +12,7 @@ body { height: 2000px; width: 448px;
 { font-size: 18px; font-family: 'Crimson Pro', serif; margin: 0 0 13px; 
  text-align: center; color: rgb(0,0,0); line-height: 1 ;}
 
-.card { width: 449px; margin: 1px; box-shadow: 0 5px 20px; background-color: rgb(174, 179, 179) ;}
+.card { width: 320px; margin: 1px; box-shadow: 0 5px 20px; background-color: rgb(174, 179, 179) ;}
 
 .header-text {
     font-size: 26px; color: rgb(0, 0, 0); line-height: 1; 
@@ -21,6 +21,6 @@ body { height: 2000px; width: 448px;
     color: inherit; text-decoration: none;
 }
 .navbar-expand-lg{
-    width: 449px; margin: 1px;
+    width: 320px; margin: 1px;
 }
 
