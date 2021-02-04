@@ -1,4 +1,4 @@
-body { height: 2000px;
+body { height: 2000px; width: 448px;
      background-color:rgb(174, 179, 179);
     }
 
@@ -10,7 +10,8 @@ body { height: 2000px;
 }
 .content-text
 { font-size: 18px; font-family: 'Crimson Pro', serif; margin: 0 0 13px; 
- text-align: center;line-height: 1;color: rgb(0,0,0); }
+ text-align: center; color: rgb(0,0,0); line-height: 1 ;}
+
 .card { width: 449px; margin: 1px; box-shadow: 0 5px 20px; background-color: rgb(174, 179, 179) ;}
 
 .header-text {
