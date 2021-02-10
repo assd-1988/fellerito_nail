@@ -1,29 +1,31 @@
-body { height: 2000px;
-     background-color:rgb(174, 179, 179);
-    }
+body {
+    max-width: 0 auto;
+     font-family: 'Crimson Pro', serif;
+     }
 
-.content {  margin: 0px ; height: 46px; background-color: rgb(174, 179, 179)
+.content { margin: 0px ; height: 46px; background-color: rgb(174, 179, 179)
     ;font-family: 'Crimson Pro', serif; font-size: 22px; box-shadow: 0 0px 20px;
     }
-.content-titel { color: rgb(0, 0, 0); 
-    font-size: 21px; margin: 6px; text-align: center; font-family: 'Crimson Pro', serif;font-weight: 600;
+.content-titel { color: rgb(0, 0, 0); width: 403px;
+    font-size: 21px; margin: 6px; text-align: center; font-family: 'Crimson Pro', serif;
 }
 .content-text
-{ font-size: 16px; font-family: 'Crimson Pro', serif; margin: 0 0 11px; 
- text-align: center; color: rgb(0,0,0); line-height: 1 ;font-weight: 900; }
+{ font-size: 16px; margin: 0 0 11px; 
+ text-align: center; color: rgb(0,0,0); line-height: 1 ;w }
 
-.card { margin: 1px; box-shadow: 0 5px 20px; background-color: rgb(174, 179, 179) ;width: 400px;}
+.card { margin: 0px; box-shadow: 0 5px 20px; background-color: rgb(174, 179, 179) ;
+    width: 406px; font-family: 'Crimson Pro',serif; }
 
 .header-text {
-    font-size: 26px; color: rgb(0, 0, 0); line-height: 1; 
+    font-size: 26px; color: rgb(0, 0, 0); 
 }
 .content a {
     color: inherit; text-decoration: none; font-weight: 1000; margin: 0 0 1px; font-size: 22px;
 }
-.navbar-expand-lg { font-weight: 900; font-family: 'Crimson Pro', serif;
+.navbar-expand-lg { font-weight: 900; 
 }
 .content img {
-    margin: 0 0 3px; 
+    margin: 0 0 4px; 
 }
 .nav-link {
     font-weight: 500; 
@@ -40,6 +42,6 @@ body { height: 2000px;
       padding-bottom: 6rem;
     }
   }
-  .content { width: 403px; border-bottom: 2px;
+  .content { width: 407px;
 
   }
