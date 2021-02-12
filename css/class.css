@@ -1,12 +1,11 @@
 body {
-    max-width: 0 auto;
      font-family: 'Crimson Pro', serif;
      }
 
 .content { margin: 0px ; height: 46px; background-color: rgb(144, 148, 148)
     ;font-family: 'Crimson Pro', serif; font-size: 22px; box-shadow: 0 0px 20px;
     }
-.content-titel { color: rgb(0, 0, 0); width: 405px; font-weight: 600;
+.content-titel { color: rgb(0, 0, 0); width: 407px; font-weight: 600;
     font-size: 21px; margin: 6px; text-align: center; font-family: 'Crimson Pro', serif;
 }
 .content-text
@@ -14,7 +13,7 @@ body {
  text-align: center; color: rgb(0,0,0); line-height: 1 ;font-weight: 600; }
 
 .card { margin: 0px; box-shadow: 0 5px 20px; background-color: rgb(151, 156, 156) ;
-    width: 408px; font-family: 'Crimson Pro',serif; }
+    width: 410px; font-family: 'Crimson Pro',serif; }
 
 .header-text {
     font-size: 27px; color: rgb(0, 0, 0); font-weight: 1000;
@@ -22,26 +21,12 @@ body {
 .content a {
     color:  rgb(0, 0, 0); text-decoration: none; font-weight: 1000; font-size: 25px;
 }
-.navbar-expand-lg { font-weight: 900; 
-}
 .content img {
     margin: 0 0 4px; 
 }
 .nav-link {
-    font-weight: 700; 
+    font-weight: 700; color: black;font-family: 'Crimson Pro', serif;
 }
-.jumbotron {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 0;
-    background-color: #fff;
-  }
-  @media (min-width: 768px) {
-    .jumbotron {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-    }
-  }
-  .content { width: 410px;
+.content { width: 410px; height: 0px;
 
   }
