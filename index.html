@@ -1,81 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--Required meta tags-->
     <meta script="uft-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Fellerito nail</title>
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/class.css">
-    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Emojione_BW_1F1EB.svg/1024px-Emojione_BW_1F1EB.svg.png">
-    
-    <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
- </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet"> 
+</head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark gb-dark fixed-top" style="background-color: rgb(85, 92, 92);">
-        <a href="#" class="navbar-brand"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Emojione_BW_1F1EB.svg/1024px-Emojione_BW_1F1EB.svg.png" width="30" height="30" alt="logo"></a>
-        <header class="header-text">Fellerito</header>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" 
-        data-target="#navbarSupportedContent"aria-controls="navbarSupportedContent"
-        aria-expanded="false"aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span></button>
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active"><a href="#Кристина" class="nav-link">О себе</a></li>
-            <li class="nav-item active"><a href="#Мои работы" class="nav-link">Мои работы</a></li>
-            <li class="nav-item active"><a href="#Прайс" class="nav-link">Прайс</a></li>
-        </ul>
-</nav><div>
-<div class="card">
-    <img class="content-photo" src="img/kristi.jpeg" alt="krist" width="410px"
-class="card" id="Кристина">
-<h2 class="content-titel">Меня зовут Кристина</h2>
-<h5 class="content-titel">Я ваш мастер маникюра.</h5>
+    <header class="wrapper">
+    <h3>О себе</h3>
+    <h3>Мои работы</h3>
+    <h3>Прайс</h3>
+</header>
+<container class="main">
+    <div>
+    <h3 class="content-titel">Меня зовут Кристина</h3>
+    <h3 class="content-titel">Я ваш мастер маникюра.</h3>
+    <div class="content"><img src="img/kristi.jpeg" alt="krist"></div>
+</div>
+</container>
+<container>
+<div>
    <p class="content-text">Работаю дома в уютной специально-оборудованной комнате.
     Угощаю своих клиентов вкусным кофе и чаем.
      Включаю во время маникюра программу Орёл и решка😍. 
     Я максимально стараюсь чтобы вам было комфортно и не скучно во время маникюра.</p>
-    
-   <p class="content-text">Очень люблю свою работу, делаю маникюр с душой!</p>
-    
+    <p class="content-text">Очень люблю свою работу, делаю маникюр с душой!</p>
     <p class="content-text">Ваши фразы: "Вау как красиво, я так и хотела", 
     "Как аккуратно и даже не больно" - меня очень радуют ❤.</p>
-    
     <P class="content-text">Веду запись заранее, и за день до маникюра предупреждаю о том что вы ко мне записанны💫.</P>
 </div>
-<div class="card" id="Мои работы">
-   <div h2 class="content-titel">Мои работы</h2>
-   </div>
-
-    <div>
-    <img src="img/1.jpg" width="406px" height="529">
-    <img src="img/3.jpg" width="407px">
-    <img src="img/4.jpeg" width="407px">
-    <img src="img/5.jpeg" width="407px">
-    <img src="img/6.jpeg" width="407px">
-    <img src="img/7.jpeg" width="407px">
-    <img src="img/8.jpg" width="407px">
-    <img src="img/9.jpg" width="407px"></div>
+</container>
+<section>
+<div>
+    <h2 class="content-titel">Мои работы</h2></div>
+    <div class="card-photo">
+    <img src="img/1.jpg">
+    <img src="img/3.jpg">
+    <img src="img/4.jpeg">
+    <img src="img/5.jpeg">
+    <img src="img/6.jpeg">
+    <img src="img/7.jpeg">
+    <img src="img/8.jpg">
+    <img src="img/9.jpg">
 </div>
-
-<div class="card" id="Прайс">
-<img src="img/preis.png" width="408px"></div>
-<div  class="content">
-    <a href="https://instagram.com/fellerito_nail22?igshid=1q140jig5ptsz" type="button" class="btn btn-secondary btn-lg btn-block">
-    <img src="img/instagram.png" width="27px"height="27px"> Fellerito_nail</a>
-    </div>
-<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-     </nav>
+</section>
+<section>
+<div class="card-photo">
+    <img src="img/preis.png"></div>
+<div class="btn">
+    <a href="https://instagram.com/fellerito_nail22?igshid=1q140jig5ptsz">
+    <img src="img/instagram.png" width="27px"height="27px">Fellerito_nail22</a>
+</div>
+</section>
 </body>
-<html/>
+</html>
