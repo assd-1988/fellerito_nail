@@ -38,24 +38,18 @@ body {
 .card-photo{
     display: flex;
     flex-direction: column;
-    
 }
-
 .content-titel 
-    { color: rgb(0, 0, 0); margin: 6px; 
+    { color: rgb(0, 0, 0); margin: 18px; 
     text-align: center; font-family :'Roboto', sans-serif ;}
-.content a {
-    color:  rgb(0, 0, 0); text-decoration: none; font-weight: 1000; font-size: 25px;
-}
-.btn {
+.btn a
+{
 display: flex;
-justify-content: space-around;
+justify-content: center;
 text-decoration: none;
 color:  rgb(0, 0, 0); font-weight: 1000; font-size: 23px;
 font-family:'Roboto', sans-serif ;
+margin-top: 10px;
 }
-a.{text-decoration: none;
-    color:  rgb(0, 0, 0); font-weight: 1000; font-size: 25px;
-    font-family:'Roboto', sans-serif ;
 
-}
+
