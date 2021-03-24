@@ -1,32 +1,61 @@
 body {
-     font-family: 'Crimson Pro', serif;
+    min-width: auto;
+
+}
+.wrapper {
+    display : flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+    
      }
-
-.content { margin: 0px ; height: 46px; background-color: rgb(144, 148, 148)
-    ;font-family: 'Crimson Pro', serif; font-size: 22px; box-shadow: 0 0px 20px;
+.main {
+    justify-content: center;
     }
-.content-titel { color: rgb(0, 0, 0); width: 407px; font-weight: 600;
-    font-size: 21px; margin: 6px; text-align: center; font-family: 'Crimson Pro', serif;
-}
-.content-text
-{ font-size: 16px; margin: 0 0 11px; 
- text-align: center; color: rgb(0,0,0); line-height: 1 ;font-weight: 600; }
+.content {
+    display: flex;
+    flex-basis: 400px; height:400px;
+    justify-content: center;
+    background-color: beige;
+    
 
-.card { margin: 0px; box-shadow: 0 5px 20px; background-color: rgb(151, 156, 156) ;
-    width: 410px; font-family: 'Crimson Pro',serif; }
-
-.header-text {
-    font-size: 27px; color: rgb(0, 0, 0); font-weight: 1000;
 }
+.content-text{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 700;
+    font-size: 19px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+     height:300px;
+    background-color: beige;
+}
+.card-photo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content-titel 
+    { color: rgb(0, 0, 0); margin: 6px; 
+    text-align: center; font-family :'Roboto', sans-serif ;}
 .content a {
     color:  rgb(0, 0, 0); text-decoration: none; font-weight: 1000; font-size: 25px;
 }
-.content img {
-    margin: 0 0 4px; 
+.btn {
+display: flex;
+justify-content: space-around;
+text-decoration: none;
+color:  rgb(0, 0, 0); font-weight: 1000; font-size: 23px;
+font-family:'Roboto', sans-serif ;
 }
-.nav-link {
-    font-weight: 700; color: black;font-family: 'Crimson Pro', serif;
-}
-.content { width: 410px; height: 0px;
+a.{text-decoration: none;
+    color:  rgb(0, 0, 0); font-weight: 1000; font-size: 25px;
+    font-family:'Roboto', sans-serif ;
 
-  }
+}
