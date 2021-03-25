@@ -2,13 +2,18 @@
 body {
     background-color: rgb(156, 156, 145);
 }
+.header{
+    display: flex;
+    justify-content: space-around;
+    font-family:'Roboto', sans-serif ;
+}
 .main {
     display: flex;
     justify-content: space-around;
     }
 .content {
     display: flex;
-    flex-basis: 400px; height:400px;
+    flex-basis: 600px; height:600px;
     justify-content: center;
     }
 .content-text{
