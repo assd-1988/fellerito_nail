@@ -1,14 +1,16 @@
 
 body {
-    background-color: rgb(177, 192, 219);
+    background-color: rgb(205, 212, 224);
 }
 .header{
     display: flex;
+
     justify-content: space-evenly;
     font-family:'Rubik Beastly', cursive;
-    background-color: rgb(115, 151, 206);
+    background-color: rgb(159, 184, 223);
     border-radius: 40px;
-    text-shadow: 50px;
+    text-shadow: 70px;
+
 }
 .main {
     display: flex;
@@ -28,26 +30,30 @@ body {
     font-size:20px;
 }
 .card{
+
     display: flex;
     justify-content: space-around;
-     height:200px;
+    height:200px;
     background-color: beige;
 }
 .card-photo{
     display: flex;
     flex-direction: column;
+    
 }
 .content-titel 
     { color: rgb(0, 0, 0); margin: 18px; 
-    text-align: center; font-family :'Roboto', sans-serif ;}
+    text-align: center; font-family :'Rubik Beastly', cursive ;
+font-size: 30px;}
 .btn a
 {
 display: flex;
 justify-content: center;
 text-decoration: none;
-color:  rgb(0, 0, 0); font-weight: 1000; font-size:25px;
-font-family:'Roboto', sans-serif ;
-margin-top: 10px;
+color:  rgb(0, 0, 0); font-weight: 1000; font-size:45px;
+font-family:'Rubik Beastly', cursive ;
+margin-top: 20px;
+
 }
 
 
