@@ -1,13 +1,13 @@
 
 body {
-    background-color: rgb(205, 212, 224);
+    background-color: rgb(179, 198, 231);
 }
 .header{
     display: flex;
 
     justify-content: space-evenly;
     font-family:'Rubik Beastly', cursive;
-    background-color: rgb(159, 184, 223);
+    background-color: rgb(158, 189, 241);
     border-radius: 40px;
     text-shadow: 70px;
 
@@ -44,13 +44,13 @@ body {
 .content-titel 
     { color: rgb(0, 0, 0); margin: 18px; 
     text-align: center; font-family :'Rubik Beastly', cursive ;
-font-size: 30px;}
+font-size: 50px;}
 .btn a
 {
 display: flex;
 justify-content: center;
 text-decoration: none;
-color:  rgb(168, 12, 12); font-weight: 1000; font-size:85px;
+color:  rgb(159, 84, 182);  font-size:85px;
 font-family:'Rubik Beastly', cursive ;
 margin-top: 20px;
 
