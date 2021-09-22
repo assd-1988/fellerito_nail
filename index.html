@@ -6,16 +6,22 @@
     <link rel="stylesheet" href="css/class.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="styleshet" href="js/app.js">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
 <header class="header">
+
     <h1>О себе</h1>
     <h1>Мои работы</h1>
     <h1>Прайс</h1>
-    </header>
+
 </header>
+
 <container class="content-text">
     <div>
     <p class="content-text">Меня зовут Кристина</p>
@@ -25,25 +31,48 @@
 </container>
 <container>
 <div>
-   <p class="content-text">Работаю дома в уютной специально-оборудованной комнате.
+   <p class="content-text"
+   data-aos="fade-down"
+   data-aos-easing="linear"
+   data-aos-duration="1500" >Работаю дома в уютной специально-оборудованной комнате.
     Угощаю своих клиентов вкусным кофе и чаем.
      Включаю во время маникюра программу Орёл и решка😍. 
     Я максимально стараюсь чтобы вам было комфортно и не скучно во время маникюра.</p>
-    <p class="content-text">Очень люблю свою работу, делаю маникюр с душой!</p>
-    <p class="content-text">Ваши фразы: "Вау как красиво, я так и хотела", 
+    <p class="content-text"
+    data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"  >Очень люблю свою работу, делаю маникюр с душой!</p>
+    <p class="content-text"
+    data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"  >Ваши фразы: "Вау как красиво, я так и хотела", 
     "Как аккуратно и даже не больно" - меня очень радуют ❤.</p>
-    <P class="content-text">Веду запись заранее, и за день до маникюра предупреждаю о том что вы ко мне записанны💫.</P>
+    <P class="content-text"
+    data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"  >Веду запись заранее, и за день до маникюра предупреждаю о том что вы ко мне записанны💫.</P>
 </div>
 </container>
 <section>
 <div>
     <h2 class="content-titel">Мои работы</h2></div>
-    <div class="card-photo">
+    <div class="card-photo"
+    data-aos="zoom-out-left"  >
     <img src="img/1.jpg">
     <img src="img/3.jpg">
     <img src="img/4.jpeg">
     
 </div>
+    <div class="card-photo"
+    data-aos="flip-left" >
+        <img src="img/5.jpeg">
+        <img src="img/6.jpeg">
+        <img src="img/7.jpeg">
+        <img src="img/8.jpg">
+        <img src="img/9.jpg">
+    </div>
+
+    </div>
 </section>
 <section>
 <div class="card-photo">
@@ -52,5 +81,11 @@
     <a href="https://instagram.com/fellerito_nail22?igshid=1q140jig5ptsz" width="27px"height="27px">Fellerito_nail22</a>
 </div>
 </section>
+<script src="js/app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
 </body>
 </html>
